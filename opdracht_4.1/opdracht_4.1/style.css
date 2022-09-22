@@ -1,7 +1,8 @@
 h1 {
     font-family: 'Lato', sans-serif;
-    color: blue;
-    font-size: 24px;
+    color: aquamarine
+}
+h1{font-size: 24px;
 }
 
 h2 {
@@ -23,13 +24,30 @@ p {
     color: #4D4D4D;
     font-family: 'Lato', sans-serif;
 }
-
-.style {
-    font-weight: bold;
+p{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aquamarine;
+    border-left: 10px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: aquamarine;
 }
+.p1 {
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+}
+
 
 a {
     color: #8A2BE2;
     text-decoration: none;
 }
 img {width: 50vw;}
+header
+{background-image: url(./img/League-of-Legends.jpg);
+height: 33vw;
+background-position: center;
+
+}
+
